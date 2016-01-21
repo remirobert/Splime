@@ -8,7 +8,7 @@
 
 #Usage 🛠
 
-Splime, return you a completion block : **(images: [UIImage]) -> ()**, to let's you get the splited frames. And also an *optional* progress block : **((progress: Float) -> ())?**, to follows the progress of the spliter.
+**Splime**, return you a completion block : **(images: [UIImage]) -> ()**, to let's you get the splited frames. And also an *optional* progress block : **((progress: Float) -> ())?**, to follows the progress of the spliter.
 
 ```swift
 videoSpliter = Splime(url: stringPath)
@@ -21,8 +21,8 @@ videoSpliter.split({ (images) -> () in
 
 #Video informations 📊
 
-Splime gathers some informations relative to the video. Splime can also be used for that usage.
-You can collect, the **total number** of frames in the video, the **total duration** (in second), the **time per frame**, and so on. When you init a new Splime object with a valid video's URL, or set a new URL, Splime with fill a struct with all that informations. All this informations, are read-only for safety ⚠️, because they are used in the split method.
+**Splime** gathers some informations relative to the video. **Splime** can also be used for that usage.
+You can collect, the **total number** of frames in the video, the **total duration** (in second), the **time per frame**, and so on. When you init a new **Splime** object with a valid video's URL, or set a new URL, **Splime** with fill a struct with all that informations. All this informations, are read-only for safety ⚠️, because they are used in the split method.
 
 ```Swift
 videoSpliter = Splime(url: stringPath)
@@ -41,7 +41,7 @@ videoSpliter.assetInformations.frameRate
 
 #Configuration ⚙
 
-Splime gives you the ability to configure the way you want to separate frames.
+**Splime** gives you the ability to configure the way you want to separate frames.
 You can specifie:
 - A **time interval**, for example split from 4 sec to 15 sec, of the video.
 - A number of maximal amount of frames you want (*I want 60 frames at the maximal, and no matter what !!*)
