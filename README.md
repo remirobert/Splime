@@ -1,4 +1,4 @@
-![logo](https://cloud.githubusercontent.com/assets/3276768/12470092/6dbd4232-c045-11e5-94d9-adde01cc671a.png)
+![logo](https://cloud.githubusercontent.com/assets/3276768/12470123/bfe1a198-c045-11e5-8960-7b5d59c4c8da.png)
 
 # Spliter
 Split videos frames to => [UIImage]
