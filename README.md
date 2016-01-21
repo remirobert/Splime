@@ -3,8 +3,7 @@
 </p>
 </br>
 
-# Spliter
-Split videos frames to => [UIImage]
+**Splime**, is a tool, lets you to *split a video into frames*. It allows you to collect some informations about the video itself, in the same time. Splime use **AVFoundation** framework.
 
 
 #Usage 🛠
