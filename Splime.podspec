@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version               = "1.0.0"
   s.summary               = "Splime, is a tool, lets you to split a video into frames."
   s.homepage              = "https://github.com/remirobert/Splime"
-
+  s.ios.deployment_target = '8.0'
   s.license               = "MIT"
 
   s.social_media_url      = 'https://twitter.com/remi936'
