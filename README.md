@@ -20,6 +20,21 @@ videoSpliter.split({ (images) -> () in
 })
 ```
 
+#Video information 📊
+
+Splime gathers some informations relative to the video. Splime can also be used for that usage.
+You can collect, the **total number** of frames in the video, the **total duration** (in second), the **time per frame**, and so on. When you init a new Splime object with a valid video's URL, or set a new URL, Splime with fill a struct with all that informations.
+
+```Swift
+videoSpliter = Splime(url: stringPath)
+//Informations collected
+
+videoSpliter.url = stringPath2
+//new Informations collected
+
+
+```
+
 #Configuration ⚙
 
 Splime gives you the ability to configure the way you want to separate frames.
