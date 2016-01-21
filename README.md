@@ -9,7 +9,7 @@ Split videos frames to => [UIImage]
 
 #Usage
 
-Splime, return you a completion block **(images: [UIImage]) -> ()**, to let's you get the splited frames. And also an optional progress block **((progress: Float) -> ())?**, to follows the progress of the spliter.
+Splime, return you a completion block : **(images: [UIImage]) -> ()**, to let's you get the splited frames. And also an *optional* progress block : **((progress: Float) -> ())?**, to follows the progress of the spliter.
 
 ```swift
 videoSpliter = Splime(url: stringPath)
