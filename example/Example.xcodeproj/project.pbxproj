@@ -15,7 +15,9 @@
 		BB0E64781C509C3D00D8A4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0E64761C509C3D00D8A4CF /* LaunchScreen.storyboard */; };
 		BB0E64831C509C3D00D8A4CF /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E64821C509C3D00D8A4CF /* ExampleTests.swift */; };
 		BB0E648E1C509C3D00D8A4CF /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E648D1C509C3D00D8A4CF /* ExampleUITests.swift */; };
-		BB0E649C1C509D7500D8A4CF /* Lincoln's new Continental is all about experience.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB0E649B1C509D7500D8A4CF /* Lincoln's new Continental is all about experience.mp4 */; };
+		BB0E649C1C509D7500D8A4CF /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB0E649B1C509D7500D8A4CF /* video.mp4 */; };
+		BB0E649F1C50A02C00D8A4CF /* FrameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E649D1C50A02C00D8A4CF /* FrameCollectionViewCell.swift */; };
+		BB0E64A01C50A02C00D8A4CF /* FrameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0E649E1C50A02C00D8A4CF /* FrameCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +53,9 @@
 		BB0E64891C509C3D00D8A4CF /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0E648D1C509C3D00D8A4CF /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		BB0E648F1C509C3D00D8A4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB0E649B1C509D7500D8A4CF /* Lincoln's new Continental is all about experience.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lincoln's new Continental is all about experience.mp4"; sourceTree = "<group>"; };
+		BB0E649B1C509D7500D8A4CF /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		BB0E649D1C50A02C00D8A4CF /* FrameCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB0E649E1C50A02C00D8A4CF /* FrameCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrameCollectionViewCell.xib; sourceTree = "<group>"; };
 		D07CD1C1F3D138B73B3D59A6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,9 +127,11 @@
 		BB0E646C1C509C3D00D8A4CF /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				BB0E649B1C509D7500D8A4CF /* Lincoln's new Continental is all about experience.mp4 */,
+				BB0E649B1C509D7500D8A4CF /* video.mp4 */,
 				BB0E646D1C509C3D00D8A4CF /* AppDelegate.swift */,
 				BB0E646F1C509C3D00D8A4CF /* ViewController.swift */,
+				BB0E649D1C50A02C00D8A4CF /* FrameCollectionViewCell.swift */,
+				BB0E649E1C50A02C00D8A4CF /* FrameCollectionViewCell.xib */,
 				BB0E64711C509C3D00D8A4CF /* Main.storyboard */,
 				BB0E64741C509C3D00D8A4CF /* Assets.xcassets */,
 				BB0E64761C509C3D00D8A4CF /* LaunchScreen.storyboard */,
@@ -261,8 +267,9 @@
 			files = (
 				BB0E64781C509C3D00D8A4CF /* LaunchScreen.storyboard in Resources */,
 				BB0E64751C509C3D00D8A4CF /* Assets.xcassets in Resources */,
-				BB0E649C1C509D7500D8A4CF /* Lincoln's new Continental is all about experience.mp4 in Resources */,
+				BB0E649C1C509D7500D8A4CF /* video.mp4 in Resources */,
 				BB0E64731C509C3D00D8A4CF /* Main.storyboard in Resources */,
+				BB0E64A01C50A02C00D8A4CF /* FrameCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +344,7 @@
 			files = (
 				BB0E64701C509C3D00D8A4CF /* ViewController.swift in Sources */,
 				BB0E646E1C509C3D00D8A4CF /* AppDelegate.swift in Sources */,
+				BB0E649F1C50A02C00D8A4CF /* FrameCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

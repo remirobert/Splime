@@ -1,2 +1,2 @@
 use_frameworks!
-pod 'Splime'
+pod 'Splime', '~> 1.0.1'

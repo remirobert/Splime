@@ -1,6 +1,0 @@
-framework module Splime {
-  umbrella header "Splime-umbrella.h"
-
-  export *
-  module * { export * }
-}
