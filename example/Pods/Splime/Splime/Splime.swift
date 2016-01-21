@@ -192,7 +192,7 @@ public class Splime: NSObject {
         }
     }
     
-    public init(url: String) {
+    init(url: String) {
         super.init()
         self.url = url
     }
