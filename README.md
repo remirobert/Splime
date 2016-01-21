@@ -21,3 +21,11 @@ videoSpliter.split({ (images) -> () in
 ```
 
 #Configuration ⚙
+
+Splime gives you the ability to configure the way you want to separate frames.
+You can specifie:
+- A **time interval**, for example split from 4 sec to 15 sec, of the video.
+- A number of maximal amount of frames you want (*I want 60 frames at the maximal, and no matter what !!*)
+- The number of frames per interval. For example I want to take a frame every 10.
+
+
