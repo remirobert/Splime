@@ -10,7 +10,7 @@
 		BB12A16E1C5051F100EF59F7 /* Splime.h in Headers */ = {isa = PBXBuildFile; fileRef = BB12A16D1C5051F100EF59F7 /* Splime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB12A1751C5051F100EF59F7 /* Splime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB12A16A1C5051F100EF59F7 /* Splime.framework */; };
 		BB12A17A1C5051F100EF59F7 /* SplimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A1791C5051F100EF59F7 /* SplimeTests.swift */; };
-		BB12A1851C50520600EF59F7 /* VIdeoSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A1841C50520600EF59F7 /* VIdeoSpliter.swift */; };
+		BB12A1851C50520600EF59F7 /* Splime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12A1841C50520600EF59F7 /* Splime.swift */; };
 		BB12A1871C50521400EF59F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB12A1861C50521400EF59F7 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		BB12A1741C5051F100EF59F7 /* SplimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB12A1791C5051F100EF59F7 /* SplimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplimeTests.swift; sourceTree = "<group>"; };
 		BB12A17B1C5051F100EF59F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB12A1841C50520600EF59F7 /* VIdeoSpliter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIdeoSpliter.swift; sourceTree = "<group>"; };
+		BB12A1841C50520600EF59F7 /* Splime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splime.swift; sourceTree = "<group>"; };
 		BB12A1861C50521400EF59F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				BB12A16D1C5051F100EF59F7 /* Splime.h */,
-				BB12A1841C50520600EF59F7 /* VIdeoSpliter.swift */,
+				BB12A1841C50520600EF59F7 /* Splime.swift */,
 				BB12A16F1C5051F100EF59F7 /* Info.plist */,
 			);
 			path = Splime;
@@ -201,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB12A1851C50520600EF59F7 /* VIdeoSpliter.swift in Sources */,
+				BB12A1851C50520600EF59F7 /* Splime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +387,7 @@
 				BB12A1801C5051F100EF59F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB12A1811C5051F100EF59F7 /* Build configuration list for PBXNativeTarget "SplimeTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +396,7 @@
 				BB12A1831C5051F100EF59F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
