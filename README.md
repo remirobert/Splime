@@ -5,6 +5,14 @@
 
 **Splime**, is a tool, lets you to *split a video into frames*. It allows you to collect some informations about the video itself, in the same time. Splime use **AVFoundation** framework.
 
+#Installation
+**Splime** is avalaible on **cocoapods**.
+Simply add this on your **Podfile** :
+
+```ruby
+use_frameworks!
+pod 'Splime', '~> 1.0.1'
+```
 
 #Usage 🛠
 
