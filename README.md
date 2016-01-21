@@ -9,10 +9,12 @@ Split videos frames to => [UIImage]
 
 #Usage
 
+Splime, return you a completion block **(images: [UIImage]) -> ()**, to let's you get the splited frames. And also an optional progress block **((progress: Float) -> ())?**, to follows the progress of the spliter.
+
 ```swift
-videoSpliter = VIdeoSpliter(url: stringPath)
-videoSpliter.videoFrames({ (images) -> () in
-                
+videoSpliter = Splime(url: stringPath)
+videoSpliter.split({ (images) -> () in
+    //use the [UIImage], images frames            
   }, progressBlock: { (progress) -> () in
     print("current progress : [\(progress)]")
 })
