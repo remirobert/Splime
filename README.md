@@ -48,4 +48,18 @@ You can specifie:
 - A number of maximal amount of frames you want (*I want 60 frames at the maximal, and no matter what !!*)
 - The number of frames per interval. For example I want to take a frame every 10.
 
+```swift
+//For the time interval, CMTime is used, to let you use, a very high precision.
+//You can use the same timeScale as the video, avalaible in the video information.
+//Split the frames from the 4 secondes, to the 10 secondes.
+videoSpliter.startInterval = CMTimeMake(4, videoSpliter.assetInformations.timeScale)
+videoSpliter.endInterval = CMTimeMake(10, videoSpliter.assetInformations.timeScale)
+
+//Keep only one frame, every 5.
+videoSpliter.everyFrames = 5
+
+//Keep only 35 maximum frames.
+//Can be used to limit the memory usage, if the video can.
+videoSpliter.totalFrames = 35
+```
 
