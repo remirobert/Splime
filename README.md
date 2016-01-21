@@ -5,3 +5,15 @@
 
 # Spliter
 Split videos frames to => [UIImage]
+
+
+#Usage
+
+```swift
+videoSpliter = VIdeoSpliter(url: stringPath)
+videoSpliter.videoFrames({ (images) -> () in
+                
+  }, progressBlock: { (progress) -> () in
+    print("current progress : [\(progress)]")
+})
+```
